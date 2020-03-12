@@ -1,4 +1,3 @@
-
 all: test
 
 test: install
@@ -6,7 +5,7 @@ test: install
 	LD_LIBRARY_PATH=. ./main
 
 install:
-	cd main && ${MAKE} install
+	cd main && ${MAKE} install 
 
 clean:
 	cd main && ${MAKE} clean
