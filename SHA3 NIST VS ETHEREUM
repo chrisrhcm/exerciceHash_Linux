@@ -1,0 +1,4 @@
+-NIST utilise SHA-3 standard qui complète le message lorsque la longueur du message n'est pas égale à la taille requise en entrée par une fonction éponge. 
+-Ethereum utilise keccak, une fonstion éponge dans laquelle les blocs du messages sont "XORés" avec des bits initiaux, ensuite permutés de manière réversible.
+
+source: https://fr.wikipedia.org/wiki/SHA-3
